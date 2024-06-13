@@ -1,76 +1,72 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import posture from "../assets/projects/posture.gif";
+import dobby from "../assets/projects/dobby.gif";
+import MovieRecommender from "../assets/projects/Movie-Recommender.png";
+import whatsapp from "../assets/projects/whatsapp.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in Python, C++, SQL || Front-End Technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies and a bit of travelling`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
     year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
+    role: "Internship",
+    company: "STOCNERVE - EQUITY ANALYST",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
+    role: "Internship",
+    company: "BOWLED.IO - BETA TESTER",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2015-2021",
+    role: "Management Trainee",
+    company: "Genpact India",
+    description: `Led a team in developing and maintained their performance by conducting sessions/feedbacks for the Team Members.
+  Collaborated with stakeholders in defining Quaterly target for the portofolio, project requirements and timelines.`,
+    technologies: ["Leadership", "Team Handling", "Interpersonal skills", "Project management"],
   },
+
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Real-time Human Pose Estimation in your browser",
+    image: posture,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "With PoseNet running on TensorFlow.js anyone with a decent webcam-equipped desktop or phone can experience this technology right from within a web browser.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Chatbot_Dobby",
+    image: dobby,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "Dobby is looking for his master Lucius Malfoy to get his hard-earned gold coins meanwhile he is happy to assist anyone with currency conversion and with some witty replies..",
+    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+  },
+  {
+    title: "Movie-Recommender",
+    image: MovieRecommender,
+    description:
+      "Movie-Recommender using Text Vectorization and Cosine Similarity.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "Whatsapp Chat Analyzer",
+    image: whatsapp,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "An NLP-based project where you can analyze any WhatsApp chat. You just have to export the chat and upload it on the website. And you will get a detailed analysis of the chat (You can either include individual or group chats). You can get the busiest month, most active user, most words used and most emojis used in the chat..",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "New Delhi, Dwarka ",
+  phoneNo: "+91 987 143 7696",
+  email: "ashutoshadhikari@outlook.com",
 };
