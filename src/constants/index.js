@@ -1,8 +1,7 @@
 import posture from "../assets/projects/posture.gif";
-import dobby from "../assets/projects/dobby.gif";
-import MovieRecommender from "../assets/projects/Movie-Recommender.png";
 import whatsapp from "../assets/projects/whatsapp.png";
-
+import foodapp from "../assets/projects/foodapp.jpg"
+import pokemon from "../assets/projects/pokemon.jpg"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in Python, C++, SQL || Front-End Technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -43,25 +42,25 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    title: "Chatbot_Dobby",
-    image: dobby,
+    title: "Food-Recipe-App",
+    image: foodapp,
     description:
-      "Dobby is looking for his master Lucius Malfoy to get his hard-earned gold coins meanwhile he is happy to assist anyone with currency conversion and with some witty replies..",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A simple MERN stack food recipe app where a user can add recipes, can look at other user recipes. In this we have used JWT tokens for authentication, bcrypt, CORS, MULTER libraries.",
+    technologies: ["MongoDb", "ExpressJs", "ReactJs", "Nodejs", "Tailwind CSS"],
   },
   {
-    title: "Movie-Recommender",
-    image: MovieRecommender,
+    title: "Pokémon React App",
+    image: pokemon,
     description:
-      "Movie-Recommender using Text Vectorization and Cosine Similarity.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Explore your favourite Pokémon and discover their amazing abilities! Compare strengths to see which Pokémon reigns supreme.",
+    technologies: ["HTML", "CSS", "React", "ReactJs"],
   },
   {
     title: "Whatsapp Chat Analyzer",
     image: whatsapp,
     description:
       "An NLP-based project where you can analyze any WhatsApp chat. You just have to export the chat and upload it on the website. And you will get a detailed analysis of the chat (You can either include individual or group chats). You can get the busiest month, most active user, most words used and most emojis used in the chat..",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "JavaScript", ],
   },
 ];
 
