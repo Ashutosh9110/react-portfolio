@@ -27,7 +27,7 @@ const Navbar = () => {
           </a>
         </div>
         <div>
-        <a href="https://x.com/">
+        <a href="https://x.com/UcancallmeAshu">
           <FaSquareXTwitter />
           </a>
         </div>

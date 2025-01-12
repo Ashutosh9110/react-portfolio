@@ -1,7 +1,7 @@
-import posture from "../assets/projects/posture.gif";
-import whatsapp from "../assets/projects/whatsapp.png";
-import foodapp from "../assets/projects/foodapp.jpg"
-import pokemon from "../assets/projects/pokemon.jpg"
+import posture from "../assets/posture.gif";
+import weather from "../assets/weather.png";
+import foodapp from "../assets/foodapp.jpg"
+import pokemon from "../assets/pokemon.jpg"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in Python, C++, SQL || Front-End Technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -35,33 +35,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Real-time Human Pose Estimation in your browser",
-    image: posture,
+    title: "Weather App",
+    image: weather,
     description:
-      "With PoseNet running on TensorFlow.js anyone with a decent webcam-equipped desktop or phone can experience this technology right from within a web browser.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A sleek and modern Weather App that gives you real-time accurate and up-to-date weather information for any city worldwide. Visualize weather data trends such as temperature, humidity, and precipitation with Recharts.",
+    technologies: ["TypeScript", "React", "Next.js", "ShadCN", "Recharts"],
+    link: "https://weather-app-nblv-ashutoshs-projects-b91f7c39.vercel.app/"
   },
   {
     title: "Food-Recipe-App",
     image: foodapp,
     description:
-      "A simple MERN stack food recipe app where a user can add recipes, can look at other user recipes. In this we have used JWT tokens for authentication, bcrypt, CORS, MULTER libraries.",
-    technologies: ["MongoDb", "ExpressJs", "ReactJs", "Nodejs", "Tailwind CSS"],
+      "A simple MERN stack Recipe application that displays different delicious recipes added by the users. It showcases a variety of recipes along with their descriptions, ingredients, and time it took to prepare the dish. Following these recipes will make you the Gordon Ramsay of your household. You just need to follow the instructions carefully and puff... A MAGNIFICIENT DISH IS READY TO GET SERVED",
+    technologies: ["MERN stack", "jsonwebtoken", "bcrypt"],
+    link: "https://food-recipee-app-beta.vercel.app/",
   },
   {
     title: "Pokémon React App",
     image: pokemon,
     description:
       "Explore your favourite Pokémon and discover their amazing abilities! Compare strengths to see which Pokémon reigns supreme.",
-    technologies: ["HTML", "CSS", "React", "ReactJs"],
+    technologies: ["MongoDB", "Express", "React", "Node.js"],
+    link: "https://pokemon-app-one-blush.vercel.app/",
   },
   {
-    title: "Whatsapp Chat Analyzer",
-    image: whatsapp,
+    title: "Real-time Human Pose Estimation in your browser",
+    image: posture,
     description:
-      "An NLP-based project where you can analyze any WhatsApp chat. You just have to export the chat and upload it on the website. And you will get a detailed analysis of the chat (You can either include individual or group chats). You can get the busiest month, most active user, most words used and most emojis used in the chat..",
-    technologies: ["HTML", "CSS", "JavaScript", ],
-  },
+      "With PoseNet running on TensorFlow.js anyone with a decent webcam-equipped desktop or phone can experience this technology right from within a web browser.",
+    technologies: [ "TensorFlow.js", "Posenet", "ML5.js", "P5.js"],
+    link: "https://ashutosh9110.github.io/Real-time-Human-Pose-Estimation-in-your-browser/"
+  }
 ];
 
 export const CONTACT = {
