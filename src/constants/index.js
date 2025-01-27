@@ -9,18 +9,18 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2022 - 2023",
+    date: "August 2023",
     role: "Internship",
     company: "STOCNERVE - EQUITY ANALYST",
     description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    technologies: [],
   },
   {
-    year: "2021 - 2022",
+    date: "September 2023",
     role: "Internship",
     company: "BOWLED.IO - BETA TESTER",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    description: `Finding and reporting bugs, suggesting creative game ideas. Consistently offering valuable feedback.`,
+    technologies: [],
   },
   {
     year: "2015-2021",
@@ -61,8 +61,7 @@ export const PROJECTS = [
   {
     title: "Real-time Human Pose Estimation in your browser",
     image: posture,
-    description:
-      "With PoseNet running on TensorFlow.js anyone with a decent webcam-equipped desktop or phone can experience this technology right from within a web browser.",
+    description: "With PoseNet running on TensorFlow.js anyone with a decent webcam-equipped desktop or phone can experience this technology right from within a web browser.",
     technologies: [ "TensorFlow.js", "Posenet", "ML5.js", "P5.js"],
     link: "https://ashutosh9110.github.io/Real-time-Human-Pose-Estimation-in-your-browser/"
   }
