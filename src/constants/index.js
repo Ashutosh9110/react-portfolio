@@ -23,11 +23,12 @@ export const EXPERIENCES = [
     technologies: [],
   },
   {
-    year: "2015-2021",
+    year: "Feb 2015 - May 2021",
     role: "Management Trainee",
     company: "Genpact India",
-    description: `Led a team in developing and maintained their performance by conducting sessions/feedbacks for the Team Members.
-  Collaborated with stakeholders in defining Quaterly target for the portofolio, project requirements and timelines.`,
+    description: `Conducting sessions/feedback for the Team members to improve their performance.
+    Collaborated with stakeholders in defining Quaterly target for the portofolio, project requirements and timelines.
+    Showcased bi-weekly/monthly reports to overseas U.S. clients.`,
     technologies: ["Leadership", "Team Handling", "Interpersonal skills", "Project management"],
   },
 
